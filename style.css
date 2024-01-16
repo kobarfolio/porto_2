@@ -84,4 +84,89 @@ body {
 
 .container .card-two {
     background-color: #173c62;
+    padding: 40px 20px;
+    padding-right: 75px ;
+    color: #b5b5b4;
+
+}
+
+.container .card-two .head-title {
+    font-size: 2.1em;
+    color: #b89258;
+    font-weight: 400;
+}
+
+.container .card-two .box {
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+    background-color: #b89258;
+    color: #2c2b29;
+}
+
+.job-name {
+    padding-top: 20px;
+}
+
+.container .card-two .group-1 .desc {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.container .card-two .group-2 .desc {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.education-list {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.education-list::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #b89258;
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+.group-2 ul li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -18px;
+    height: 60px;
+    border-left: 2px solid #b89258;
+}
+
+.education-des {
+    color: #b89258;
+    font-weight: bold;
+}
+
+.container .card-two .group-3 .desc {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.desc::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #b89258;
 }
