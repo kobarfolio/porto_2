@@ -69,3 +69,19 @@ body {
 .container .card-one .personal-box .fa-circle.active {
     color: rgb(3, 177, 3);
 }
+
+.container .card-one .hobbies-box {
+    margin-top: 35px;
+} 
+
+.container .card-one .hobbies-box .logo {
+    margin: 10px 0px;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    font-size: 2.8em;
+    grid-row-gap: 15px;
+} 
+
+.container .card-two {
+    background-color: #173c62;
+}
